@@ -10,8 +10,18 @@ import '@stream-io/video-react-sdk/dist/css/styles.css';
 import { Toaster } from "@/components/ui/toaster"
 import 'react-datepicker/dist/react-datepicker.css'
 
+
 const inter = Inter({ subsets: ["latin"] });
 
+
+export const metadata={
+  title: 'CISPOL ZOOM',
+  description: 'App Cispol Zoom',
+  manifest:"/manifest.json",
+  icons:{
+    apple: "/icon.png"
+  }
+}
 
 
 export default function RootLayout({
